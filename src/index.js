@@ -21,9 +21,9 @@ app.use(express.json());
 
 async function init() {
   try {
-    console.log("🧩 Inicializando base de datos...");
-    await createTableCodes();
-    await createTableAwards();
+    //console.log("🧩 Inicializando base de datos...");
+    //await createTableCodes();
+    //await createTableAwards();
 
     //console.log("📥 Importando códigos desde CSV...");
     // await importCodesFromCSV("./codes.csv");
