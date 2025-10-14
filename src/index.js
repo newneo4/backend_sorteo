@@ -26,7 +26,7 @@ async function init() {
     await createTableAwards();
 
     console.log("📥 Importando códigos desde CSV...");
-    await importCodesFromCSV("./codes.csv");
+    // await importCodesFromCSV("./codes.csv");
 
     app.use("/codes", codesRoutes);
     app.use("/awards", awardsRoutes);
